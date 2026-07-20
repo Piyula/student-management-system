@@ -186,16 +186,3 @@ API endpoints are tested using:
 
 ---
 
-## 👩‍💻 Author
-
-**Piyula Arulpirabakar**
-
-🎓 Computer Science Undergraduate  
-💻 Software Engineering Intern  
-
-🔗 GitHub:  
-https://github.com/Piyula
-
----
-
-⭐ If you find this project useful, consider giving it a star!
