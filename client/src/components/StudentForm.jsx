@@ -71,7 +71,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
             name="studentId"
             value={formData.studentId}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none ${
               errors.studentId ? 'border-red-500' : 'border-gray-300'
             }`}
             disabled={isLoading}
@@ -90,7 +90,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none ${
               errors.name ? 'border-red-500' : 'border-gray-300'
             }`}
             disabled={isLoading}
@@ -109,7 +109,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none ${
               errors.email ? 'border-red-500' : 'border-gray-300'
             }`}
             disabled={isLoading}
@@ -127,7 +127,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
             name="department"
             value={formData.department}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none ${
               errors.department ? 'border-red-500' : 'border-gray-300'
             }`}
             disabled={isLoading}
@@ -155,7 +155,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
             onChange={handleChange}
             min="1"
             max="4"
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none ${
               errors.year ? 'border-red-500' : 'border-gray-300'
             }`}
             disabled={isLoading}
@@ -174,7 +174,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none ${
+            className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-teal-500 focus:outline-none ${
               errors.phone ? 'border-red-500' : 'border-gray-300'
             }`}
             disabled={isLoading}
@@ -196,7 +196,7 @@ const StudentForm = ({ initialData, onSubmit, isLoading }) => {
         </button>
         <button
           type="submit"
-          className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition disabled:bg-blue-400"
+          className="px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition disabled:bg-teal-400"
           disabled={isLoading}
         >
           {isLoading ? 'Saving...' : initialData ? 'Update Student' : 'Add Student'}

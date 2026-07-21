@@ -28,8 +28,8 @@ const Home = () => {
     {
       title: 'Total Students',
       value: stats.total,
-      icon: <Users className="w-8 h-8 text-blue-600" />,
-      bg: 'bg-blue-50',
+      icon: <Users className="w-8 h-8 text-teal-600" />,
+      bg: 'bg-teal-50',
       link: '/students',
     },
     {
@@ -90,7 +90,7 @@ const Home = () => {
           <div className="flex flex-wrap gap-4">
             <Link
               to="/add-student"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              className="px-6 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition"
             >
               + Add New Student
             </Link>

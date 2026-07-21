@@ -32,7 +32,7 @@ const ViewStudent = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-teal-600"></div>
       </div>
     );
   }
@@ -83,7 +83,7 @@ const ViewStudent = () => {
               <div>
                 <label className="text-sm font-medium text-gray-500">Department</label>
                 <p className="text-lg font-semibold text-gray-800">
-                  <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+                  <span className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm">
                     {student.department}
                   </span>
                 </p>

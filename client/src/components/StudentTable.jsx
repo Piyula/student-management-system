@@ -52,7 +52,7 @@ const StudentTable = ({ students, onDelete }) => {
                 {student.email}
               </td>
               <td className="px-6 py-4 whitespace-nowrap text-sm">
-                <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                <span className="px-2 py-1 bg-teal-100 text-teal-800 rounded-full text-xs">
                   {student.department}
                 </span>
               </td>
@@ -66,7 +66,7 @@ const StudentTable = ({ students, onDelete }) => {
                 <div className="flex justify-center space-x-2">
                   <Link
                     to={`/students/${student._id}`}
-                    className="text-blue-600 hover:text-blue-900"
+                    className="text-teal-600 hover:text-teal-900"
                   >
                     <Eye size={18} />
                   </Link>
